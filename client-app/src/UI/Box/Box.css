@@ -1,0 +1,68 @@
+.box-item {
+    padding: 10px 0 10px;
+    text-align: left;
+    background-color: transparent;
+    transition: all .4s ease;
+  }
+  
+  .box-item a {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    color: rgb(255,5,102);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .box-item .icon {
+    background-color: #f9f9f9;
+    color: rgb(255,5,102);
+    width: 65px;
+    height: 65px;
+    margin-bottom: 32px;
+    border-radius: 100%;
+    transition: all .4s ease;
+  
+  }
+  
+  .box-item .icon i {
+    line-height: 1;
+    font-size: 32px;
+  }
+  
+  .box-item h3 {
+    font-size: 20px;
+    margin-bottom: .8rem;
+    font-weight: 500;
+      text-transform: capitalize;
+      letter-spacing: 0;
+      -webkit-transition: all .4s ease;
+      transition: all .4s ease;
+      word-break: break-word;
+  }
+  
+  .box-item h3 a {
+    color: #2d3238;
+  }
+  
+  .box-item p {
+    font-size: 14.5px;
+    padding-bottom: 18px;
+    color: rgba(84,86,89,.7);
+    margin-bottom: 0;
+    line-height: 2;
+  }
+  
+  
+  .box-item h3:not(:last-child), .subtitle:not(:last-child), .title:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+  
+  .box-item:hover .icon {
+    background-color: rgb(255,5,102);
+    color: #fff;
+    transition: all .4s ease;
+  }
+  
+  .box-item:hover h3 a {
+    color: rgb(255,5,102);
+  }

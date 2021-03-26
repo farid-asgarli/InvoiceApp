@@ -1,0 +1,37 @@
+.form-control textarea{
+    background-color: #f9f9f9;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 190px;
+    display: block;
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    padding: calc(1em - 1px);
+    resize: vertical;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 0;
+    justify-content: flex-start;
+    line-height: 1.5;
+    position: relative;
+    transition: 0.4s ease-in-out;
+}
+
+.form-control textarea:not([rows]) {
+    min-height: 190px;
+    max-height: 600px;
+}
+
+.form-control textarea:active,.form-control textarea:focus {
+    border-color: #f05b29 !important;
+    outline: 0;
+    transition: 0.4s ease-in-out;
+    background-color: #ffffff;
+}
+
+.form-control textarea:hover {
+    border-color: #eaeaea;
+    transition: 0.4s ease-in-out;
+
+}

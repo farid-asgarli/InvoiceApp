@@ -1,0 +1,49 @@
+.form-control-custom{
+    font-size: 1rem;
+    position: relative;
+    text-align: left;
+    margin: 20px auto;
+}
+
+.form-control-custom select{
+    cursor: pointer;
+}
+
+.form-control-custom input,.form-control-custom select{
+    background-color: #f9f9f9;
+    border-color: transparent;
+    font-size: 14.5px;
+    height: 3.26em;
+    color: rgba(84,86,89,.8);
+    padding-left: calc(1em - 1px);
+    padding-right: calc(1em - 1px);
+    box-shadow: none;
+    max-width: 100%;
+    width: 100%;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 0;
+    display: inline-flex;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(.375em - 1px);
+    padding-top: calc(.375em - 1px);
+    position: relative;
+    vertical-align: top;
+    transition: 0.4s ease-in-out;
+}
+
+.form-control-custom input:focus,.form-control-custom select:focus{
+    outline: 0;
+    border-color: rgb(255,5,102) !important;
+    box-shadow: 0 rgba(240,91,41,0);
+    transition: 0.4s ease-in-out;
+    background-color: #ffffff;
+
+}
+
+.form-control-custom input:hover,.form-control-custom select:hover{
+    border-color: #eaeaea;
+    transition: 0.4s ease-in-out;
+
+}

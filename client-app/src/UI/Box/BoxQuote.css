@@ -1,0 +1,28 @@
+.box-quote a{
+    color: rgba(255,255,255,.85);
+    font-size: 14.5px;
+    transition: all .3s ease;
+}
+
+.box-quote a .media .media-left {
+    margin-right: 1.4rem;
+}
+
+.box-quote a .media .icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background-color: #f05b29;
+    margin-right: 0;
+    margin-top: 4px;
+    vertical-align: middle;
+}
+.box-quote a .media .icon i{
+    color: #fff;
+    font-size: 22px;
+}
+
+.box-quote a .media  strong {
+    font-size: 20px;
+    color: #fff;
+}

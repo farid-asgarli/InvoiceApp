@@ -1,0 +1,26 @@
+
+.button {
+    text-transform: capitalize;
+    font-family: Roboto,sans-serif;
+    border: none;
+    box-shadow: none;
+    letter-spacing: 0;
+    transition: all .5s ease;
+    color: #fff;
+    background-color: rgb(255,5,102);
+    outline: 0;
+    border-radius: 0;
+    font-weight: 500;
+    font-size: 16px!important;
+    padding: 14px 30px;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 25px;
+}
+
+ .button:hover {
+  background-color: #22262a;
+  transition: all .5s ease;
+  color: #fff;
+
+}

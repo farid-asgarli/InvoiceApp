@@ -1,0 +1,121 @@
+article{
+    display: block;
+  }
+  
+  .blog-post {
+    background-color: #fff;
+    margin-bottom: 10px;
+    transition: all .4s ease;
+    border-radius: 0;
+  }
+  
+  .blog-post .post-image {
+    margin-bottom: 35px;
+    overflow: hidden;
+  }
+  
+  .blog-post a {
+    color: rgb(255,5,102);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .post-image img {
+    transition: all .4s ease-in-out;
+    display: block;
+    width: 100%;
+  }
+  
+  .entry-header {
+    padding: 0 38px;
+  }
+  
+  .blog-post .entry-header .entry-title {
+    font-size: 21px;
+  }
+  
+  .blog-post .entry-header .entry-title {
+    font-size: 19px;
+    font-size: 1.1875rem;
+    line-height: 1.6;
+    margin-bottom: .55rem!important;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #363a3f;
+    text-transform: capitalize;
+  }
+  
+  .blog-post .entry-header .entry-title, .subtitle, .title {
+    word-break: break-word;
+  }
+  
+  .blog-post .entry-header .entry-title a {
+    color: #363a3f;
+    transition: all .4s ease;
+  }
+  .blog-post .entry-title a:hover {
+    color: rgb(255,5,102);
+  }
+  
+  
+  
+  .has-text-primary {
+    color: rgb(255,5,102)!important;
+  }
+  
+  .blog-post .entry-content {
+    padding: 0 38px;
+    padding-bottom: 5px;
+  }
+  
+  .blog-post .entry-content p {
+    font-size: 14.5px;
+    margin-bottom: 20px;
+    color: rgba(84,86,89,.7);
+  }
+  
+  .blog-post .entry-footer {
+    padding: 0 38px;
+    padding-bottom: 35px;
+  }
+  
+  .blog-post .entry-footer .button {
+    position: relative;
+    color: #363a3f;
+    padding-left: 0;
+    padding-right: 22px;
+    transition: all .5s ease;
+    background-color: transparent;
+    height: 2.25em;
+    font-size: 14.3px;
+  }
+  
+  .blog-post:hover {
+    -webkit-box-shadow: 0 9px 50px -4px rgb(166 166 166 / 10%);
+    box-shadow: 0 9px 50px -4px rgb(166 166 166 / 10%);
+  }
+  
+  .blog-post .entry-footer .button:hover {
+    color: rgb(255,5,102);
+  }
+  
+  
+  
+  
+  .blog-post .post-image:hover img {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  
+  .blog-post .entry-footer .button .fas.fa-chevron-right{
+    font-size: 17px;
+    margin-left: 10px;
+    color: rgb(255,5,102);
+    transition: all .5s ease;
+  }
+  
+  .blog-post .entry-footer .button:hover i  {
+    transform: translateX(10px);
+     transition: all .5s ease;
+   
+   }

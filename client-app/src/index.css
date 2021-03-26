@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none !important;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  color: rgb(255,5,102);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+a strong {
+  color: currentColor;
+}
+
+p {
+  font-family: Roboto,sans-serif;
+  line-height: 2;
+  color: rgba(84,86,89,.7);
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+}
+
+
+
+img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+
+strong {
+  color: #363636;
+  font-weight: 700;
+}
+
+.level {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.icon {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.media {
+  align-items: flex-start;
+  display: flex;
+  text-align: left;
+}
+
+.media-left, .media-right {
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.media-content {
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  text-align: left;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected, 
+.react-datepicker__month-text--keyboard-selected,
+.react-datepicker__quarter-text--keyboard-selected, 
+.react-datepicker__year-text--keyboard-selected,
+.react-datepicker__day--selected:hover{
+  background-color: rgb(255,5,102) !important;
+}
+
+table td .button{
+  margin: 0 auto !important;
+  padding: 5px 10px !important;
+
+}
+
+h5 a{
+  color:rgb(255,5,102) !important;
+}
+
+.totals{
+  color:rgb(255,5,102) !important;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.totalsTitle{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+ /* *************************mediaqueries***************** */
+
+
+@media screen and (min-width: 1280px)
+{
+  .container {
+    max-width: 1170px !important;
+    width: 1170px !important;
+}
+}
+@media screen and (min-width: 1472px)
+{
+  .container {
+    max-width: 1500px !important;
+    width: 1500px !important;
+}
+}

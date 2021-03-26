@@ -1,0 +1,23 @@
+
+  .icon-primary a {
+    display: inline-block;
+    color: rgba(255,255,255,.85);
+    transition: all .3s ease;
+  }
+  
+  .icon-primary .icon {
+    background-color: rgba(255,255,255,.3) !important;
+    color: #fff;
+    width: 35px;
+      height: 35px;
+      border-radius: 100%;
+      transition: all .4s ease;
+  }
+  
+  .icon-primary.icon i{
+    font-size: .9375rem;
+  }
+  
+  .icon-primary :hover .icon{
+    background-color: rgb(255,5,102)!important;
+  }

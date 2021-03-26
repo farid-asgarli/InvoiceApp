@@ -1,0 +1,134 @@
+footer{
+    background-color: #2d3238;
+    color: #fff;
+    text-align: inherit;
+    padding: 3.5rem 1.5rem 0;
+    display: block;
+  }
+  
+  footer a{
+    color: #fff;
+    text-transform: capitalize;
+  }
+  
+  footer .widget-title{
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  
+  .widget-links ul li:first-child {
+    padding-top: 0;
+  }
+  
+  footer .widget-links ul li {
+    font-size: .875rem;
+    transition: all .3s ease;
+    font-weight: 400;
+    padding: 6px 0;
+    letter-spacing: 1px
+  }
+  
+  footer .widget-links ul li a i{
+   margin-right: 10px;
+   font-size: 12px;
+  }
+  
+  footer .widget-links ul li a:hover{
+    color: rgb(255,5,102) !important;
+  
+  }
+  
+  .footer .widget-links.links-with-icons ul li .icon i, footer .widget-links.links-with-icons ul li .icon i {
+    font-size: .9375rem;
+    color: rgb(255,5,102) !important;
+   margin-right: 10px;
+  
+  }
+  
+  .widget:first-child .widget-title {
+    margin-top: -9px;
+  }
+  
+  footer .widget {
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+  }
+  
+  .textwidget p {
+    margin-bottom: 25px;
+    font-size: .90625rem;
+      font-weight: 400;
+      color: rgba(255,255,255,.85);
+      line-height: 2;
+  }
+  
+  
+  .site-footer-inner {
+    border-bottom: 1px solid #414549;
+    padding-bottom: 4rem;
+  }
+  
+  footer .site-logo{
+    margin-bottom: 0;
+    margin-top: -17px;
+    padding: 26px 0;
+    padding-top: 0;
+  }
+  
+  footer .site-logo a {
+    display: inline-block;
+  }
+  
+  footer .site-logo img {
+    max-height: 26px;
+    margin-top: -13px;
+    vertical-align: middle;
+  }
+  
+  footer .site-logo .logo-text{
+    font-size: 1.75rem;
+      letter-spacing: 0;
+      padding: 0 6px;
+      color: #fff;
+      font-weight: 600;
+      font-style: inherit;
+  }
+  
+  
+  
+  footer .footer-social-links li a {
+    display: inline-block;
+    color: rgba(255,255,255,.85);
+    transition: all .3s ease;
+  }
+  
+  footer .footer-social-links li {
+    display: inline-block;
+    transition: all .3s ease;
+    padding: 0 7px;
+    display: inline-block;
+  }
+  .footer-social-links li:first-child {
+    padding-left: 0;
+  }
+  
+  footer .footer-social-links li .icon {
+    background-color: rgba(255,255,255,.3);
+    color: #fff;
+    width: 35px;
+      height: 35px;
+      border-radius: 100%;
+      transition: all .4s ease;
+  }
+  
+  footer .footer-social-links li .icon i{
+    font-size: .9375rem;
+  }
+  
+  footer .footer-social-links li :hover .icon{
+    background-color: rgb(255,5,102);
+  }
