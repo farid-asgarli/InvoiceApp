@@ -13,3 +13,16 @@ The necessary data will be seeded and database will be created on the run, so yo
 This project uses production build of React, which is Loacated inside /InvoiceApp/API/wwwroot.
 
 To see the contents of development build of React, head to /InvoiceApp/client-app
+
+Credentials:
+
+Admin Login:
+
+bob@test.com
+Pa$$w0rd
+
+User Login
+
+leon@test.com / jill@test.com
+Pa$$word
+
