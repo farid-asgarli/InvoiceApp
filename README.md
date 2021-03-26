@@ -2,7 +2,7 @@
 
 Project is built using .NET Core 5 and React with Typescript.
 
-Solution consists of 3 projects : API (where Startup.cs and Program.cs are located), Domain (for Models), Application (For application logic), Persistence (for database).
+Solution consists of 4 projects : API (where Startup.cs and Program.cs are located), Domain (for Models), Application (For application logic), Persistence (for database).
 
 So in order to run the project, just head to /InvoiceApp/API and in CLI, use :
 
