@@ -11,7 +11,7 @@ So in order to run the project, just head to /InvoiceApp/API and in CLI, use :
 The necessary data will be seeded and database will be created on the run, so you do not need a database file.
 This project already uses production build of React, which is Loacated inside /InvoiceApp/API/wwwroot.
 
-Credentials:
+Default Credentials:
 
 Admin Login:
 
